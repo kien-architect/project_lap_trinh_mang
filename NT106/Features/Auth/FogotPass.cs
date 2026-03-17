@@ -14,7 +14,7 @@ namespace plan_fighting_super_start
         //API của backend 
         private static readonly HttpClient httpClient = new HttpClient
         {
-            BaseAddress = new Uri("https://4xt8f352xe.execute-api.ap-southeast-1.amazonaws.com/")
+            BaseAddress = new Uri("")
         };
 
         // ----- Cấu hình mail server  -----
