@@ -18,7 +18,7 @@ namespace plan_fighting_super_start
         private Label _friendBadge;
 
         // API rank giống form Rank
-        private const string RANK_API_BASE = "https://f1oj97uhee.execute-api.ap-southeast-1.amazonaws.com";
+        private const string RANK_API_BASE = "";
         private static readonly HttpClient http = new HttpClient();
         private readonly JsonSerializerOptions jsonOpt = new() { PropertyNameCaseInsensitive = true };
 
