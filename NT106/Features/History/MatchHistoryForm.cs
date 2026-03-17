@@ -6,7 +6,7 @@ namespace plan_fighting_super_start
     {
         private readonly HttpClient _httpClient = new HttpClient();
 
-        private readonly string apiBaseUrl = "https://840blg9a68.execute-api.ap-southeast-1.amazonaws.com"; // URL API Gateway 
+        private readonly string apiBaseUrl = ""; // URL API Gateway 
 
         public MatchHistoryForm()
         {
