@@ -11,7 +11,7 @@ namespace plan_fighting_super_start
     {
         // URL API Gateway trỏ tới Lambda RedeemGiftcodeFunction
         private const string GiftcodeApiUrl =
-            "https://ueg0kxfq34.execute-api.ap-southeast-1.amazonaws.com/default/RedeemGiftcodeFunction";
+            "";
 
 
         // HttpClient dùng chung
