@@ -14,7 +14,7 @@ namespace plan_fighting_super_start
 
         // API đổi máy bay
         private const string API_PLANE =
-            "https://ux7ir7zqt1.execute-api.ap-southeast-1.amazonaws.com/post/plane";
+            "";
 
         private static readonly HttpClient http = new HttpClient();
 
