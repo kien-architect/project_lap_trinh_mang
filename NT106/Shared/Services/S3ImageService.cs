@@ -15,7 +15,7 @@ namespace plan_fighting_super_start
     {
         // API Gateway URL trỏ tới Lambda Image
         private const string API_IMAGE =
-            "https://2cd28uutce.execute-api.ap-southeast-1.amazonaws.com/image";
+            "";
 
         private static readonly HttpClient http = new HttpClient();
 
