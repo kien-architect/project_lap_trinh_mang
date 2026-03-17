@@ -11,7 +11,7 @@ namespace plan_fighting_super_start
     public partial class Rank : Form
     {
         //API Gateway URL trỏ tới Lambda Rank
-        private const string API_BASE = "https://f1oj97uhee.execute-api.ap-southeast-1.amazonaws.com";
+        private const string API_BASE = "";
 
         private static readonly HttpClient http = new HttpClient();
         private readonly JsonSerializerOptions jsonOpt = new() { PropertyNameCaseInsensitive = true };
